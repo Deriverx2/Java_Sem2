@@ -12,10 +12,7 @@ package Que12;
 
 import java.util.Scanner;
 
-/**
- *
- * @author nazal
- */
+
 public class DynamicArray {
     private int[] array;
     private int length;
