@@ -1,9 +1,6 @@
 package Que11;
 import java.util.Scanner;
-/**
- *
- * @author nazal
- */
+
 public class TowerOfHanoi {
     static void hanoi(String start, String end, String middle, int n){
         if(n==0){
