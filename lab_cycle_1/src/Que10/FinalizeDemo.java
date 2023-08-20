@@ -1,17 +1,16 @@
 package Que10;
 
 class FinalizeDemo {
-  int a,b,c;
-    ABC(int a,int b,int c){
-        this.a=a;
-        this.b=b;
-        this.c=c;
+    private int code;
+    public FinalizeDemo(int code){
+        this.code=code;
     }
-    public void printProduct(){
-        System.out.println("product="+(a+b+c));
+
+    public void finalize() {
+        System.out.println("Garbage collected");
     }
-    public void finalize(){
-        System.out.println("garbageCollected ");
+
+    public String toString(){
+        return "Code is "+code;
     }
-    
 }
